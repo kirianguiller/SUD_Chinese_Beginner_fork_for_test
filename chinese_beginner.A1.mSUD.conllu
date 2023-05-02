@@ -10,8 +10,9 @@
 2	没	没	ADV	_	_	3	mod	_	Grammar_Target=Yes
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	问	问	NOUN	_	_	3	comp:obj	_	_
-5	题	题	NOUN	_	_	4	@m	_	_
+5	题	题	NOUN	_	_	0	comp@m	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 2
 # structure = 没 + 有 (+ Obj.)
@@ -30,6 +31,7 @@
 7	钱	钱	NOUN	_	_	6	comp:obj	_	_
 8	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 3
 # structure = 没 + 有 (+ Obj.)
 # text = 他 没有 工作 吗？
@@ -45,6 +47,7 @@
 5	作	作	NOUN	_	_	4	@m	_	_
 6	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 4
 # structure = 没 + 有 (+ Obj.)
@@ -63,6 +66,7 @@
 7	妈	妈	NOUN	_	_	5	conj	_	_
 8	妈	妈	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 5
 # structure = 没 + 有 (+ Obj.)
@@ -83,6 +87,7 @@
 9	子	子	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 6
 # structure = 没 + 有 (+ Obj.)
 # text = 你 爸爸 没有 手机 吗？
@@ -100,6 +105,7 @@
 7	机	机	NOUN	_	_	6	@m	_	_
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 7
 # structure = 没 + 有 (+ Obj.)
@@ -120,6 +126,7 @@
 9	友	友	NOUN	_	_	8	@m	_	_
 10	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 11	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 8
 # structure = 没 + 有 (+ Obj.)
@@ -142,6 +149,7 @@
 11	友	友	NOUN	_	_	10	@m	_	_
 12	。	。	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 9
 # structure = 没 + 有 (+ Obj.)
 # text = 他们 都 没有 电脑 吗？
@@ -159,6 +167,7 @@
 7	脑	脑	NOUN	_	_	6	@m	_	_
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 10
 # structure = 没 + 有 (+ Obj.)
@@ -182,6 +191,7 @@
 12	吗	吗	PART	_	Mood=Inter	9	discourse	_	_
 13	？	？	PUNCT	_	_	9	punct	_	_
 
+
 # sent_id = 11
 # structure = Subj. + 不 + Verb + Obj.
 # text = 他们 不 是 坏 孩子。
@@ -199,6 +209,7 @@
 7	子	子	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 12
 # structure = Subj. + 不 + Verb + Obj.
 # text = 我们 不 喝 酒。
@@ -213,6 +224,7 @@
 4	喝	喝	VERB	_	_	0	root	_	_
 5	酒	酒	NOUN	_	_	4	comp:obj	_	_
 6	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 13
 # structure = Subj. + 不 + Verb + Obj.
@@ -231,6 +243,7 @@
 7	作	作	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 14
 # structure = Subj. + 不 + Verb + Obj.
 # text = 你 不 喜欢 我 吗？
@@ -246,6 +259,7 @@
 5	我	我	PRON	_	Person=1	3	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 15
 # structure = Subj. + 不 + Verb + Obj.
@@ -267,6 +281,7 @@
 10	啡	啡	NOUN	_	_	9	@m	_	_
 11	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 16
 # structure = Subj. + 不 + Adj.
 # text = 我 不 饿。
@@ -279,6 +294,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Grammar_Target=Yes
 3	饿	饿	ADJ	_	_	0	root	_	_
 4	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 17
 # structure = Subj. + 不 + Adj.
@@ -294,6 +310,7 @@
 4	贵	贵	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 18
 # structure = Subj. + 不 + Adj.
 # text = 公司 不 大。
@@ -307,6 +324,7 @@
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	大	大	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 19
 # structure = Subj. + 不 + Adj.
@@ -325,6 +343,7 @@
 7	高	高	ADJ	_	_	0	root	_	_
 8	兴	兴	ADJ	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 20
 # structure = Subj. + 不 + Adj.
@@ -346,6 +365,7 @@
 10	帅	帅	ADJ	_	_	5	parataxis	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 21
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 你们 都 认识 John 吗 ？
@@ -363,6 +383,7 @@
 7	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 8	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 22
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 他们 都 在 上海 。
@@ -378,6 +399,7 @@
 5	上	上	PROPN	_	_	4	comp:obj	_	_
 6	海	海	PROPN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 23
 # structure = Subj. + 都 + [Verb Phrase]
@@ -397,6 +419,7 @@
 8	去	去	VERB	_	_	6	comp:aux	_	_
 9	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 24
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 你们 都 用 wiki 吗 ？
@@ -412,6 +435,7 @@
 5	wiki	wiki	PROPN	_	_	4	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 25
 # structure = Subj. + 都 + [Verb Phrase]
@@ -429,6 +453,7 @@
 6	水	水	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 26
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 我们 两 个 都 爱 你 。
@@ -445,6 +470,7 @@
 6	爱	爱	VERB	_	_	0	root	_	_
 7	你	你	PRON	_	Person=2	6	comp:obj	_	_
 8	。	。	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 27
 # structure = Subj. + 都 + [Verb Phrase]
@@ -469,6 +495,7 @@
 13	吗	吗	PART	_	Mood=Inter	9	discourse	_	_
 14	？	？	PUNCT	_	_	9	punct	_	_
 
+
 # sent_id = 28
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 我 和 我 太太 都  不 吃 肉。
@@ -487,6 +514,7 @@
 8	吃	吃	VERB	_	_	0	root	_	_
 9	肉	肉	PART	_	_	8	comp:obj	_	_
 10	。	。	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = 29
 # structure = Subj. + 都 + [Verb Phrase]
@@ -509,6 +537,7 @@
 11	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 12	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 30
 # structure = Subj. + 都 + [Verb Phrase]
 # text = 她 和 她 老公 都 没有 工作。
@@ -529,6 +558,7 @@
 10	作	作	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 31
 # structure = Subj. + 也 + Verb / [Verb Phrase]
 # text = 我 也 喜欢。
@@ -542,6 +572,7 @@
 3	喜	喜	VERB	_	_	0	root	_	_
 4	欢	欢	VERB	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 32
 # structure = Subj. + 也 + Verb / [Verb Phrase]
@@ -557,6 +588,7 @@
 4	学	学	NOUN	_	_	3	comp:obj	_	_
 5	生	生	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 33
 # structure = Subj. + 也 + Verb / [Verb Phrase]
@@ -574,6 +606,7 @@
 6	儿	儿	NOUN	_	_	3	comp:obj	_	_
 7	子	子	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 34
 # structure = Subj. + 也 + Verb / [Verb Phrase]
@@ -593,6 +626,7 @@
 8	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 9	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 35
 # structure = Subj. + 也 + Verb / [Verb Phrase]
 # text = 我 也 想 学 中文。
@@ -609,6 +643,7 @@
 6	文	文	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 36
 # structure = Subj. + 也 + Verb / [Verb Phrase]
 # text = 他们 也 会 去吗？
@@ -624,6 +659,7 @@
 5	去	去	VERB	_	_	4	comp:aux	_	_
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 37
 # structure = Subj. + 也 + Verb / [Verb Phrase]
@@ -644,6 +680,7 @@
 9	子	子	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 38
 # structure = Subj. + 也 + Verb / [Verb Phrase]
 # text = 孩子 也 可以 喝酒 吗？
@@ -662,6 +699,7 @@
 8	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 9	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 39
 # structure = Subj. + 也 + Verb / [Verb Phrase]
 # text = 你 也 想 来 我 家 吗？
@@ -678,6 +716,7 @@
 6	家	家	NOUN	_	_	4	comp:obj	_	_
 7	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 8	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 40
 # structure = Subj. + 也 + Verb / [Verb Phrase]
@@ -699,6 +738,7 @@
 10	好	好	ADJ	_	_	3	comp:obj	_	_
 11	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 41
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 你 也 很 高。
@@ -713,6 +753,7 @@
 4	高	高	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 42
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 他 也 很 胖。
@@ -726,6 +767,7 @@
 3	很	很	ADV	_	_	4	mod	_	_
 4	胖	胖	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 43
 # structure = Subj. + 也 (+ Adv.) + Adj.
@@ -743,6 +785,7 @@
 6	帅	帅	ADJ	_	_	0	root	_	_
 7	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 44
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 湖南 菜 也 很 辣。
@@ -758,6 +801,7 @@
 5	很	很	ADV	_	_	6	mod	_	_
 6	辣	辣	ADJ	_	_	0	root	_	_
 7	。	。	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 45
 # structure = Subj. + 也 (+ Adv.) + Adj.
@@ -776,6 +820,7 @@
 7	喝	喝	VERB	_	_	0	root	_	_
 8	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 46
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 这 个 地方 也 很 漂亮。
@@ -793,6 +838,7 @@
 7	漂	漂	ADJ	_	_	0	root	_	_
 8	亮	亮	ADJ	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 47
 # structure = Subj. + 也 (+ Adv.) + Adj.
@@ -814,6 +860,7 @@
 10	冷	冷	ADJ	_	_	4	parataxis	_	_
 11	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 48
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 他 生气 了 ？ 我 也 很 生气！
@@ -834,6 +881,7 @@
 10	气	气	NOUN	_	_	9	comp:obj	_	_
 11	！	！	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 49
 # structure = Subj. + 也 (+ Adv.) + Adj.
 # text = 这 个 问题 也 很 麻烦。
@@ -851,6 +899,7 @@
 7	麻	麻	ADJ	_	_	0	root	_	_
 8	烦	烦	ADJ	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 50
 # structure = Subj. + 也 (+ Adv.) + Adj.
@@ -872,6 +921,7 @@
 10	好	好	ADJ	_	_	2	comp:obj	_	_
 11	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 51
 # structure = Noun 1 + 和 + Noun 2
 # text = 你 和 我
@@ -883,6 +933,7 @@
 1	你	你	PRON	_	Person=2	0	root	_	_
 2	和	和	CCONJ	_	_	3	cc	_	Grammar_Target=Yes
 3	我	我	PRON	_	Person=1	1	conj	_	_
+
 
 # sent_id = 52
 # structure = Noun 1 + 和 + Noun 2
@@ -901,6 +952,7 @@
 7	和	和	CCONJ	_	_	8	cc	_	Grammar_Target=Yes
 8	茶	茶	NOUN	_	_	5	conj	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 53
 # structure = Noun 1 + 和 + Noun 2
@@ -921,6 +973,7 @@
 9	70	70	NUM	_	_	10	mod	_	_
 10	岁	岁	NOUN	_	_	0	root	_	_
 11	。	。	PUNCT	_	_	10	punct	_	_
+
 
 # sent_id = 54
 # structure = Noun 1 + 和 + Noun 2
@@ -943,6 +996,7 @@
 11	国	国	PROPN	_	_	10	@m	_	_
 12	菜	菜	NOUN	_	_	8	comp:obj	_	_
 13	。	。	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = 55
 # structure = Noun 1 + 和 + Noun 2
@@ -967,6 +1021,7 @@
 13	吗	吗	PART	_	Mood=Inter	9	discourse	_	_
 14	？	？	PUNCT	_	_	9	punct	_	_
 
+
 # sent_id = 56
 # structure = Noun 1 + 和 + Noun 2
 # text = 手机 和 电脑 都 很 贵 。
@@ -984,6 +1039,7 @@
 7	很	很	ADV	_	_	8	mod	_	_
 8	贵	贵	ADJ	_	_	0	root	_	_
 9	。	。	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = 57
 # structure = Noun 1 + 和 + Noun 2
@@ -1004,6 +1060,7 @@
 9	吗	吗	PART	_	Mood=Inter	8	discourse	_	_
 10	？	？	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 58
 # structure = Noun 1 + 和 + Noun 2
 # text = 今天 和 明天 都 可以 吗 ？
@@ -1023,6 +1080,7 @@
 9	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 10	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 59
 # structure = Option A + 还是 + Option B ?
 # text = 我 还是 他 ？
@@ -1036,6 +1094,7 @@
 3	是	是	CCONJ	_	_	2	@m	_	Grammar_Target=Yes
 4	他	他	PRON	_	Person=3	0	root	_	_
 5	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 60
 # structure = Option A + 还是 + Option B ?
@@ -1052,6 +1111,7 @@
 5	两	两	NUM	_	NumType=Card	6	mod	_	_
 6	个	个	CLF	_	_	2	conj	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 61
 # structure = Option A + 还是 + Option B ?
@@ -1070,6 +1130,7 @@
 7	的	的	PART	_	_	6	mod	_	_
 8	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 62
 # structure = Option A + 还是 + Option B ?
 # text = 冰 的 还是 热 的？
@@ -1085,6 +1146,7 @@
 5	热	热	ADJ	_	_	1	conj	_	_
 6	的	的	PART	_	_	5	mod	_	_
 7	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 63
 # structure = Option A + 还是 + Option B ?
@@ -1102,6 +1164,7 @@
 6	京	京	PROPN	_	_	5	@m	_	_
 7	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 64
 # structure = Subj. + Verb + Option A + 还是 + Option B ?
 # text = 这 是 水 还是 酒 ？
@@ -1117,6 +1180,7 @@
 5	是	是	CCONJ	_	_	4	@m	_	Grammar_Target=Yes
 6	酒	酒	NOUN	_	_	3	conj	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 65
 # structure = Subj. + Verb + Option A + 还是 + Option B ?
@@ -1138,6 +1202,7 @@
 10	人	人	NOUN	_	_	5	conj	_	_
 11	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 66
 # structure = Subj. + Verb + Option A + 还是 + Option B ?
 # text = 你 喜欢 我 还是 我 的 钱 ？
@@ -1157,6 +1222,7 @@
 9	钱	钱	NOUN	_	_	4	conj	_	_
 10	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 67
 # structure = Subj. + Verb + Option A + 还是 + Option B ?
 # text = 你 要 喝 茶 还是 咖啡 ？
@@ -1174,6 +1240,7 @@
 7	咖	咖	NOUN	_	_	4	conj	_	_
 8	啡	啡	NOUN	_	_	7	@m	_	_
 9	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 68
 # structure = Subj. + Verb + Option A + 还是 + Option B ?
@@ -1197,6 +1264,7 @@
 12	菜	菜	NOUN	_	_	7	conj	_	_
 13	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 69
 # structure = Subj. + Number + 岁
 # text = 我 20 岁 。
@@ -1210,6 +1278,7 @@
 3	0	0	NUM	_	NumType=Card	2	flat	_	_
 4	岁	岁	NOUN	_	_	0	root	_	Grammar_Target=Yes
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 70
 # structure = Subj. + Number + 岁
@@ -1225,6 +1294,7 @@
 4	一	一	NUM	_	NumType=Card	5	mod	_	_
 5	岁	岁	NOUN	_	_	0	root	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 71
 # structure = Subj. + Number + 岁
@@ -1243,6 +1313,7 @@
 7	岁	岁	NOUN	_	_	0	root	_	Grammar_Target=Yes
 8	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 72
 # structure = Subj. + Number + 岁
 # text = 你 爷爷 今年 80 岁 吗？
@@ -1260,6 +1331,7 @@
 7	岁	岁	NOUN	_	_	0	root	_	Grammar_Target=Yes
 8	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 9	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 73
 # structure = Subj. + Number + 岁
@@ -1280,6 +1352,7 @@
 9	吗	吗	PART	_	Mood=Inter	8	discourse	_	_
 10	？	？	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 76
 # structure = Number + 个 + Noun
 # text = 一 个 人
@@ -1291,6 +1364,7 @@
 1	一	一	NUM	_	NumType=Card	2	mod	_	_
 2	个	个	CLF	_	_	3	clf	_	Grammar_Target=Yes
 3	人	人	NOUN	_	_	0	root	_	_
+
 
 # sent_id = 77
 # structure = Number + 个 + Noun
@@ -1304,6 +1378,7 @@
 2	个	个	CLF	_	_	3	clf	_	Grammar_Target=Yes
 3	朋	朋	NOUN	_	_	0	root	_	_
 4	友	友	NOUN	_	_	3	@m	_	_
+
 
 # sent_id = 78
 # structure = Number + 个 + Noun
@@ -1320,6 +1395,7 @@
 5	手	手	NOUN	_	_	0	root	_	_
 6	机	机	NOUN	_	_	5	@m	_	_
 
+
 # sent_id = 79
 # structure = Number + 个 + Noun
 # text = 五 个 星期
@@ -1333,6 +1409,7 @@
 3	星	星	NOUN	_	_	0	root	_	_
 4	期	期	NOUN	_	_	3	@m	_	_
 
+
 # sent_id = 80
 # structure = Number + 个 + Noun
 # text = 六 个 月
@@ -1344,6 +1421,7 @@
 1	六	六	NUM	_	NumType=Card	2	mod	_	_
 2	个	个	CLF	_	_	3	clf	_	Grammar_Target=Yes
 3	月	月	NOUN	_	_	0	root	_	_
+
 
 # sent_id = 81
 # structure = Number + 个 + Noun
@@ -1357,6 +1435,7 @@
 2	个	个	CLF	_	_	3	clf	_	Grammar_Target=Yes
 3	老	老	NOUN	_	_	0	root	_	_
 4	婆	婆	NOUN	_	_	3	@m	_	_
+
 
 # sent_id = 82
 # structure = Number + 个 + Noun
@@ -1380,6 +1459,7 @@
 12	坏	坏	ADJ	_	_	8	parataxis	_	_
 13	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 83
 # structure = Verb + 个 + Noun
 # text = 他 是 个 老外。
@@ -1394,6 +1474,7 @@
 4	老	老	NOUN	_	_	2	comp:obj	_	_
 5	外	外	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 84
 # structure = Verb + 个 + Noun
@@ -1410,6 +1491,7 @@
 5	子	子	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 85
 # structure = Verb + 个 + Noun
 # text = 她 是 个 好 老师。
@@ -1425,6 +1507,7 @@
 5	老	老	NOUN	_	_	2	comp:obj	_	_
 6	师	师	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 86
 # structure = Verb + 个 + Noun
@@ -1443,6 +1526,7 @@
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 87
 # structure = Verb + 个 + Noun
 # text = 老师 ， 我 有 个 问题。
@@ -1460,6 +1544,7 @@
 7	问	问	NOUN	_	_	5	comp:obj	_	_
 8	题	题	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 88
 # structure = x 年 + y 月 + z 日
@@ -1480,6 +1565,7 @@
 9	8	8	NUM	_	NumType=Card	8	flat	_	_
 10	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
 
+
 # sent_id = 89
 # structure = x 年 + y 月 + z 日
 # text = 1910 年 8 月 9 号
@@ -1497,6 +1583,7 @@
 7	月	月	NOUN	_	_	5	flat	_	Grammar_Target=Yes
 8	9	9	NUM	_	NumType=Card	9	mod	_	_
 9	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
+
 
 # sent_id = 90
 # structure = x 年 + y 月 + z 日
@@ -1517,6 +1604,7 @@
 9	0	0	NUM	_	NumType=Card	8	flat	_	_
 10	日	日	NOUN	_	_	7	flat	_	Grammar_Target=Yes
 
+
 # sent_id = 91
 # structure = x 年 + y 月 + z 日
 # text = 1 月 1 日 是 新年。
@@ -1533,6 +1621,7 @@
 6	新	新	ADJ	_	_	7	@m	_	_
 7	年	年	NOUN	_	_	5	comp:obj	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 92
 # structure = x 年 + y 月 + z 日
@@ -1554,6 +1643,7 @@
 10	夜	夜	NOUN	_	_	7	comp:obj	_	_
 11	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 93
 # structure = x 年 + y 月 + z 日
 # text = 10 月 1 号 我们 去 上海。
@@ -1574,6 +1664,7 @@
 10	海	海	PROPN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 94
 # structure = x 年 + y 月 + z 日
 # text = 我 1990 年 7 月 出生。
@@ -1593,6 +1684,7 @@
 9	出	出	VERB	_	_	0	root	_	_
 10	生	生	NOUN	_	_	9	comp:obj	_	_
 11	。	。	PUNCT	_	_	9	punct	_	_
+
 
 # sent_id = 95
 # structure = x 年 + y 月 + z 日
@@ -1615,6 +1707,7 @@
 11	号	号	NOUN	_	_	8	flat	_	Grammar_Target=Yes
 12	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 13	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 96
 # structure = x 年 + y 月 + z 日
@@ -1641,6 +1734,7 @@
 15	他	他	PRON	_	Person=3	12	comp:obj	_	_
 16	。	。	PUNCT	_	_	12	punct	_	_
 
+
 # sent_id = 97
 # structure = x 年 + y 月 + z 日
 # text = 1980 年 9 月 4 号 我们 结婚 了。
@@ -1665,6 +1759,7 @@
 14	了	了	PART	_	_	12	discourse	_	_
 15	。	。	PUNCT	_	_	12	punct	_	_
 
+
 # sent_id = 98
 # structure = x 年 + y 月 + z 号
 # text = 1868 年 1 月 18 号
@@ -1682,6 +1777,7 @@
 9	8	8	NUM	_	NumType=Card	8	flat	_	_
 10	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
 
+
 # sent_id = 99
 # structure = x 年 + y 月 + z 号
 # text = 1910 年 8 月 9 号
@@ -1698,6 +1794,7 @@
 8	9	9	NUM	_	NumType=Card	9	mod	_	_
 9	号	号	NOUN	_	_	7	flat	_	Grammar_Target=Yes
 
+
 # sent_id = 108
 # structure = (Date and/or time of day +) x 点
 # text = 九 点
@@ -1708,6 +1805,7 @@
 # url = https://resources.allsetlearning.com/chinese/grammar/ASGN6BBU
 1	九	九	NUM	_	NumType=Card	2	mod	_	_
 2	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
+
 
 # sent_id = 109
 # structure = (Date and/or time of day +) x 点
@@ -1722,6 +1820,7 @@
 3	七	七	NUM	_	NumType=Card	4	mod	_	_
 4	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
+
 # sent_id = 110
 # structure = (Date and/or time of day +) x 点
 # text = 下午 四 点
@@ -1734,6 +1833,7 @@
 2	午	午	NOUN	_	_	1	@m	_	_
 3	四	四	NUM	_	NumType=Card	4	mod	_	_
 4	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
+
 
 # sent_id = 111
 # structure = (Date and/or time of day +) x 点
@@ -1749,6 +1849,7 @@
 4	二	二	NUM	_	NumType=Card	3	flat	_	_
 5	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
 
+
 # sent_id = 112
 # structure = (Date and/or time of day +) x 点
 # text = 明天 晚上 七 点
@@ -1763,6 +1864,7 @@
 4	上	上	NOUN	_	_	3	@m	_	_
 5	七	七	NUM	_	NumType=Card	6	mod	_	_
 6	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
+
 
 # sent_id = 118
 # structure = x 点 + 半
@@ -1780,6 +1882,7 @@
 6	点	点	NOUN	_	_	1	flat	_	Grammar_Target=Yes
 7	半	半	NOUN	_	_	6	mod	_	Grammar_Target=Yes
 
+
 # sent_id = 119
 # structure = x 点 + 半
 # text = 今天 下午 四 点 半
@@ -1796,6 +1899,7 @@
 6	点	点	NOUN	_	_	0	root	_	Grammar_Target=Yes
 7	半	半	NOUN	_	_	6	mod	_	Grammar_Target=Yes
 
+
 # sent_id = 120
 # structure = Pronoun + Noun
 # text = 我 家 很 大。
@@ -1809,6 +1913,7 @@
 3	很	很	ADV	_	_	4	mod	_	_
 4	大	大	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 121
 # structure = Pronoun + Noun
@@ -1824,6 +1929,7 @@
 4	很	很	ADV	_	_	5	mod	_	_
 5	高	高	ADJ	_	_	0	root	_	_
 6	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 122
 # structure = Pronoun + Noun
@@ -1841,6 +1947,7 @@
 6	友	友	NOUN	_	_	5	@m	_	Grammar_Target=Yes
 7	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 123
 # structure = Pronoun + Noun
 # text = 她 妈妈 很 漂亮。
@@ -1857,6 +1964,7 @@
 6	亮	亮	ADJ	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 124
 # structure = Pronoun + Noun
 # text = 我们 学校 很 大 。
@@ -1872,6 +1980,7 @@
 5	很	很	ADV	_	_	6	mod	_	_
 6	大	大	ADJ	_	_	0	root	_	_
 7	。	。	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 125
 # structure = Pronoun + Noun
@@ -1890,6 +1999,7 @@
 7	京	京	PROPN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 126
 # structure = Pronoun + Noun
 # text = 你 男朋友 很 帅。
@@ -1905,6 +2015,7 @@
 5	很	很	ADV	_	_	6	mod	_	_
 6	帅	帅	ADJ	_	_	0	root	_	_
 7	。	。	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 127
 # structure = Pronoun + Noun
@@ -1922,6 +2033,7 @@
 6	名	名	ADJ	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 128
 # structure = Pronoun + Noun
 # text = 我 女儿 会 说 英语。
@@ -1938,6 +2050,7 @@
 6	英	英	NOUN	_	_	5	comp:obj	_	_
 7	语	语	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 129
 # structure = Pronoun + Noun
@@ -1960,6 +2073,7 @@
 11	板	板	NOUN	_	_	10	@m	_	_
 12	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 130
 # structure = Noun 1 + 的 + Noun 2
 # text = 我 的 老师
@@ -1972,6 +2086,7 @@
 2	的	的	PART	_	Case=Gen	3	mod	_	Grammar_Target=Yes
 3	老	老	NOUN	_	_	0	root	_	_
 4	师	师	NOUN	_	_	3	@m	_	_
+
 
 # sent_id = 131
 # structure = Noun 1 + 的 + Noun 2
@@ -1986,6 +2101,7 @@
 3	手	手	NOUN	_	_	0	root	_	_
 4	机	机	NOUN	_	_	3	@m	_	_
 
+
 # sent_id = 132
 # structure = Noun 1 + 的 + Noun 2
 # text = 我们 的 钱
@@ -1998,6 +2114,7 @@
 2	们	们	PART	_	Number=Plur|Person=1	1	@m	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	Grammar_Target=Yes
 4	钱	钱	NOUN	_	_	0	root	_	_
+
 
 # sent_id = 133
 # structure = Noun 1 + 的 + Noun 2
@@ -2013,6 +2130,7 @@
 4	东	东	NOUN	_	_	0	root	_	_
 5	西	西	NOUN	_	_	4	@m	_	_
 
+
 # sent_id = 134
 # structure = Noun 1 + 的 + Noun 2
 # text = 爸爸 的 车
@@ -2026,6 +2144,7 @@
 3	的	的	PART	_	Case=Gen	4	mod	_	Grammar_Target=Yes
 4	车	车	NOUN	_	_	0	root	_	_
 
+
 # sent_id = 135
 # structure = Noun 1 + 的 + Noun 2
 # text = 你们 的 菜
@@ -2038,6 +2157,7 @@
 2	们	们	PART	_	Number=Plur|Person=3	1	@m	_	_
 3	的	的	PART	_	Case=Gen	4	mod	_	Grammar_Target=Yes
 4	菜	菜	NOUN	_	_	0	root	_	_
+
 
 # sent_id = 136
 # structure = Noun 1 + 的 + Noun 2
@@ -2053,6 +2173,7 @@
 4	空	空	NOUN	_	_	0	root	_	_
 5	气	气	NOUN	_	_	4	@m	_	_
 
+
 # sent_id = 137
 # structure = Noun 1 + 的 + Noun 2
 # text = 公司 的 老板
@@ -2066,6 +2187,7 @@
 3	的	的	PART	_	Case=Gen	4	mod	_	Grammar_Target=Yes
 4	老	老	NOUN	_	_	0	root	_	_
 5	板	板	NOUN	_	_	4	@m	_	_
+
 
 # sent_id = 138
 # structure = Noun 1 + 的 + Noun 2
@@ -2081,6 +2203,7 @@
 4	天	天	NOUN	_	_	0	root	_	_
 5	气	气	NOUN	_	_	4	@m	_	_
 
+
 # sent_id = 139
 # structure = Noun 1 + 的 + Noun 2
 # text = 老师 的 朋友
@@ -2095,6 +2218,7 @@
 4	朋	朋	NOUN	_	_	0	root	_	_
 5	友	友	NOUN	_	_	4	@m	_	_
 
+
 # sent_id = 143
 # structure = [Missing Person / Thing] + 呢 ？
 # text = 钱 呢 ？
@@ -2106,6 +2230,7 @@
 1	钱	钱	NOUN	_	_	0	root	_	_
 2	呢	呢	PART	_	Mood=Inter	1	discourse	_	Grammar_Target=Yes
 3	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 144
 # structure = [Missing Person / Thing] + 呢 ？
@@ -2120,6 +2245,7 @@
 3	妈	妈	NOUN	_	_	2	@m	_	_
 4	呢	呢	PART	_	Mood=Inter	2	discourse	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 145
 # structure = [Missing Person / Thing] + 呢 ？
@@ -2136,6 +2262,7 @@
 5	呢	呢	PART	_	Mood=Inter	3	discourse	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 146
 # structure = Command + 吧
 # text = 我们 走 吧。 This is a suggestion.
@@ -2150,6 +2277,7 @@
 4	吧	吧	PART	_	_	3	discourse	_	Grammar_Target=Yes
 5	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 147
 # structure = Command + 吧
 # text = 你 说 吧。This is a suggestion.
@@ -2162,6 +2290,7 @@
 2	说	说	VERB	_	_	0	root	_	_
 3	吧	吧	PART	_	_	2	discourse	_	Grammar_Target=Yes
 4	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 148
 # structure = Command + 吧
@@ -2176,6 +2305,7 @@
 3	吃	吃	VERB	_	_	0	root	_	_
 4	吧	吧	PART	_	_	3	discourse	_	Grammar_Target=Yes
 5	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 149
 # structure = Command + 吧
@@ -2192,6 +2322,7 @@
 5	吧	吧	PART	_	_	1	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 150
 # structure = Command + 吧
 # text = 喝 水 吧。This is a suggestion.
@@ -2204,6 +2335,7 @@
 2	水	水	NOUN	_	_	1	comp:obj	_	_
 3	吧	吧	PART	_	_	1	discourse	_	Grammar_Target=Yes
 4	。	。	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 151
 # structure = Command + 吧
@@ -2221,6 +2353,7 @@
 6	吧	吧	PART	_	_	3	discourse	_	Grammar_Target=Yes
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 152
 # structure = Command + 吧
 # text = 我们 六 点 去吧？This is more of a confirmation than a suggestion.
@@ -2237,6 +2370,7 @@
 6	吧	吧	PART	_	_	5	discourse	_	Grammar_Target=Yes
 7	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 153
 # structure = Command + 吧
 # text = 休息 一下 吧。This is a suggestion.
@@ -2252,6 +2386,7 @@
 5	吧	吧	PART	_	_	1	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 154
 # structure = Command + 吧
 # text = 我们 结婚 吧。This is a also suggestion, believe it or not!
@@ -2266,6 +2401,7 @@
 4	婚	婚	NOUN	_	_	3	comp:obj	_	_
 5	吧	吧	PART	_	_	3	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 155
 # structure = Command + 吧
@@ -2285,6 +2421,7 @@
 8	吧	吧	PART	_	_	4	discourse	_	Grammar_Target=Yes
 9	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 156
 # structure = Subj. + 在 + Place
 # text = 我 在 上海。
@@ -2298,6 +2435,7 @@
 3	上	上	PROPN	_	_	2	comp:obj	_	_
 4	海	海	PROPN	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 157
 # structure = Subj. + 在 + Place
@@ -2314,6 +2452,7 @@
 5	国	国	PROPN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 158
 # structure = Subj. + 在 + Place
 # text = 老板 在 外面。
@@ -2329,6 +2468,7 @@
 5	面	面	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 159
 # structure = Subj. + 在 + Place
 # text = 他 不 在 学校。
@@ -2343,6 +2483,7 @@
 4	学	学	NOUN	_	_	3	comp:obj	_	_
 5	校	校	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 160
 # structure = Subj. + 在 + Place
@@ -2360,6 +2501,7 @@
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 161
 # structure = Subj. + 在 + Place
 # text = 你 在 公司 吗？Literally, "Are you at the company?"
@@ -2374,6 +2516,7 @@
 4	司	司	NOUN	_	_	3	@m	_	_
 5	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 162
 # structure = Subj. + 在 + Place
@@ -2393,6 +2536,7 @@
 8	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 9	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 163
 # structure = Subj. + 在 + Place
 # text = 谁 在 楼上？
@@ -2406,6 +2550,7 @@
 3	楼	楼	NOUN	_	_	2	comp:obj	_	_
 4	上	上	NOUN	_	_	3	@m	_	_
 5	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 164
 # structure = Subj. + 在 + Place
@@ -2423,6 +2568,7 @@
 6	酒	酒	NOUN	_	_	5	comp:obj	_	_
 7	吧	吧	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 165
 # structure = Subj. + 在 + Place
@@ -2442,6 +2588,7 @@
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 166
 # structure = Place + 有 + Obj.
 # text = 我 家 有 很 多 小 狗。
@@ -2458,6 +2605,7 @@
 6	小	小	ADJ	_	_	7	mod	_	_
 7	狗	狗	NOUN	_	_	3	comp:obj	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 167
 # structure = Place + 有 + Obj.
@@ -2478,6 +2626,7 @@
 9	哥	哥	NOUN	_	_	5	comp:obj	_	_
 10	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 168
 # structure = Place + 有 + Obj.
 # text = 日本 有 很 多 中国人。
@@ -2495,6 +2644,7 @@
 7	国	国	PROPN	_	_	6	@m	_	_
 8	人	人	NOUN	_	_	3	comp:obj	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 169
 # structure = Place + 有 + Obj.
@@ -2515,6 +2665,7 @@
 9	女	女	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 170
 # structure = Place + 有 + Obj.
 # text = 你 家 有 牛奶 吗？
@@ -2530,6 +2681,7 @@
 5	奶	奶	NOUN	_	_	4	@m	_	_
 6	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 171
 # structure = Place + 有 + Obj.
@@ -2548,6 +2700,7 @@
 7	题	题	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 172
 # structure = Place + 有 + Obj.
 # text = 房间 里 有 人 吗？
@@ -2564,6 +2717,7 @@
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 173
 # structure = Place + 有 + Obj.
 # text = 杯子 里 有 水 吗？
@@ -2579,6 +2733,7 @@
 5	水	水	NOUN	_	_	4	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 174
 # structure = Place + 有 + Obj.
@@ -2600,6 +2755,7 @@
 10	码	码	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 175
 # structure = Place + 有 + Obj.
 # text = 现在 办公室 里 有 人 吗？
@@ -2619,6 +2775,7 @@
 9	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 10	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 176
 # structure = Subj. + 有 + Obj.
 # text = 我 有 钱。
@@ -2631,6 +2788,7 @@
 2	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 3	钱	钱	NOUN	_	_	2	comp:obj	_	_
 4	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 177
 # structure = Subj. + 有 + Obj.
@@ -2647,6 +2805,7 @@
 5	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 178
 # structure = Subj. + 有 + Obj.
 # text = 她 没 有 车。
@@ -2660,6 +2819,7 @@
 3	有	有	VERB	_	_	0	root	_	Grammar_Target=Yes
 4	车	车	NOUN	_	_	3	comp:obj	_	_
 5	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 179
 # structure = Subj. + 有 + Obj.
@@ -2677,6 +2837,7 @@
 6	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 180
 # structure = Subj. + 有 + Obj.
 # text = 我们 有 三 个 女儿 。
@@ -2693,6 +2854,7 @@
 6	女	女	NOUN	_	_	3	comp:obj	_	_
 7	儿	儿	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 181
 # structure = Subj. + 有 + Obj.
@@ -2712,6 +2874,7 @@
 8	司	司	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 182
 # structure = Subj. + 有 + Obj.
 # text = 你 有 一百 块 钱 吗？
@@ -2728,6 +2891,7 @@
 6	钱	钱	NOUN	_	_	2	comp:obj	_	_
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 183
 # structure = Subj. + 有 + Obj.
@@ -2749,6 +2913,7 @@
 10	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 11	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 184
 # structure = Subj. + 有 + Obj.
 # text = 我爸爸 没 有 工作。
@@ -2766,6 +2931,7 @@
 7	作	作	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 185
 # structure = Subj. + 有 + Obj.
 # text = 今天 你 有 课 吗？
@@ -2782,6 +2948,7 @@
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 186
 # structure = Subj. + 叫 + [Name]
 # text = 我 叫 Tom。Note: it even works if you don't have a Chinese name!
@@ -2797,6 +2964,7 @@
 5	m	m	PROPN	_	_	4	flat:foreign@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 187
 # structure = Subj. + 叫 + [Name]
 # text = 他 叫 李小龙。Note: this is the real name of Bruce Lee
@@ -2811,6 +2979,7 @@
 4	小	小	PROPN	_	_	3	@m	_	_
 5	龙	龙	PROPN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 188
 # structure = Subj. + 叫 + [Name]
@@ -2828,6 +2997,7 @@
 6	马	马	PROPN	_	_	5	comp@m	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 189
 # structure = Subj. + 叫 + [Name]
 # text = 那 个 叫 什么？
@@ -2842,6 +3012,7 @@
 4	什	什	ADV	_	_	3	comp:obj	_	_
 5	么	么	ADV	_	_	4	@m	_	_
 6	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 194
 # structure = Subj. + 叫 + [Name]
@@ -2858,6 +3029,7 @@
 5	什	什	ADV	_	_	4	comp:obj	_	_
 6	么	么	ADV	_	_	5	@m	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 195
 # structure = Subj. + 叫 + [Name]
@@ -2876,6 +3048,7 @@
 7	滩	滩	PROPN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 196
 # structure = Subj. + 去 + [Place]
 # text = 我 去 公司 。公司 literally means "company" but is often used to mean "office."
@@ -2889,6 +3062,7 @@
 3	公	公	NOUN	_	_	2	comp:obj	_	_
 4	司	司	NOUN	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 197
 # structure = Subj. + 去 + [Place]
@@ -2905,6 +3079,7 @@
 5	间	间	NOUN	_	_	2	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 198
 # structure = Subj. + 去 + [Place]
@@ -2923,6 +3098,7 @@
 7	市	市	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 199
 # structure = Subj. + 去 + [Place]
 # text = 我们 现在 去 公园。
@@ -2939,6 +3115,7 @@
 6	公	公	NOUN	_	_	5	comp:obj	_	_
 7	园	园	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 200
 # structure = Subj. + 去 + [Place]
@@ -2961,6 +3138,7 @@
 11	吗	吗	PART	_	Mood=Inter	10	discourse	_	_
 12	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 201
 # structure = Subj. + 去 + Verb
 # text = 我 去 工作 。
@@ -2975,6 +3153,7 @@
 4	作	作	NOUN	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 202
 # structure = Subj. + 去 + Verb
 # text = 他 去 上课 。
@@ -2988,6 +3167,7 @@
 3	上	上	VERB	_	_	2	comp:svc	_	_
 4	课	课	NOUN	_	_	3	comp:obj	_	_
 5	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 203
 # structure = Subj. + 去 + Verb
@@ -3005,6 +3185,7 @@
 6	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 204
 # structure = Subj. + 去 + Verb
 # text = 我们 去 吃饭 吧 。
@@ -3020,6 +3201,7 @@
 5	饭	饭	NOUN	_	_	4	comp:obj	_	_
 6	吧	吧	PART	_	_	3	discourse	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 205
 # structure = Subj. + 去 + Verb
@@ -3037,6 +3219,7 @@
 6	买	买	VERB	_	_	5	comp:aux	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 206
 # structure = Subj. + 姓 + [Surname]
 # text = 我 姓 王。
@@ -3049,6 +3232,7 @@
 2	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 3	王	王	PROPN	_	_	2	comp:obj	_	_
 4	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 207
 # structure = Subj. + 姓 + [Surname]
@@ -3066,6 +3250,7 @@
 6	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 7	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 208
 # structure = Subj. + 姓 + [Surname]
 # text = 那 个 帅哥 姓 张。
@@ -3081,6 +3266,7 @@
 5	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	张	张	PROPN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 209
 # structure = Subj. + 姓 + [Surname]
@@ -3103,6 +3289,7 @@
 11	林	林	PROPN	_	_	10	comp:obj	_	_
 12	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 210
 # structure = Subj. + 姓 + [Surname]
 # text = 他 女朋友 姓 钱。
@@ -3119,6 +3306,7 @@
 6	钱	钱	PROPN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 211
 # structure = Subj. + 姓 + [Surname]
 # text = 你好，我 姓 毛。
@@ -3134,6 +3322,7 @@
 5	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 6	毛	毛	PROPN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 212
 # structure = Subj. + 姓 + [Surname]
@@ -3155,6 +3344,7 @@
 10	赵	赵	PROPN	_	_	9	comp:obj	_	_
 11	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 213
 # structure = Subj. + 姓 + [Surname]
 # text = 我 的 中文 老师 姓 陈。
@@ -3173,6 +3363,7 @@
 8	陈	陈	PROPN	_	_	7	comp:obj	_	_
 9	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 214
 # structure = Subj. + 姓 + [Surname]
 # text = 你 奶奶 也 姓 陈 吗 ？
@@ -3190,6 +3381,7 @@
 7	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 8	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 215
 # structure = Subj. + 姓 + [Surname]
 # text = 他们 都 姓 李。
@@ -3204,6 +3396,7 @@
 4	姓	姓	VERB	_	_	0	root	_	Grammar_Target=Yes
 5	李	李	PROPN	_	_	4	comp:obj	_	_
 6	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 216
 # structure = Subj. + 能 + Verb + Obj.
@@ -3222,6 +3415,7 @@
 7	饺	饺	NOUN	_	_	3	comp:obj	_	_
 8	子	子	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 217
 # structure = Subj. + 能 + Verb + Obj.
@@ -3242,6 +3436,7 @@
 9	时	时	NOUN	_	_	3	comp:obj	_	_
 10	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 218
 # structure = Subj. + 能 + Verb + Obj.
 # text = 你 能 帮 我 找到 他 吗？
@@ -3259,6 +3454,7 @@
 7	他	他	PRON	_	Person=3	5	comp:obj	_	_
 8	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 9	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 219
 # structure = Subj. + 能 + Verb + Obj.
@@ -3278,6 +3474,7 @@
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 220
 # structure = Subj. + 能 + Verb + Obj.
 # text = 一 岁 的 宝宝 能 说话 吗？
@@ -3296,6 +3493,7 @@
 8	话	话	NOUN	_	_	7	comp:obj	_	_
 9	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 10	？	？	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 221
 # structure = Subj. + 能 + Verb + Obj.
@@ -3317,6 +3515,7 @@
 10	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 11	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 222
 # structure = Subj. + 能 + Verb + Obj.
 # text = 他们 明天 能 早 点 来 吗？
@@ -3336,6 +3535,7 @@
 9	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 223
 # structure = Subj. + 能 + Verb + Obj.
 # text = 你们 能 小声 一点 吗？
@@ -3353,6 +3553,7 @@
 7	点	点	ADV	_	_	4	mod	_	_
 8	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 9	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 224
 # structure = Subj. + 能 + Verb + Obj.
@@ -3376,6 +3577,7 @@
 12	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 13	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 225
 # structure = Subj. + 能 + Verb + Obj.
 # text = 一 千 块 能 买 一 个 手机 吗？
@@ -3396,6 +3598,7 @@
 10	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 11	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 226
 # structure = Subj. + 会 + Verb + Obj.
 # text = 他 会 说 中文。
@@ -3410,6 +3613,7 @@
 4	中	中	NOUN	_	_	3	comp:obj	_	_
 5	文	文	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 227
 # structure = Subj. + 会 + Verb + Obj.
@@ -3426,6 +3630,7 @@
 5	字	字	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 228
 # structure = Subj. + 会 + Verb + Obj.
 # text = 你 会 做饭 吗？
@@ -3440,6 +3645,7 @@
 4	饭	饭	NOUN	_	_	3	comp:obj	_	_
 5	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 229
 # structure = Subj. + 会 + Verb + Obj.
@@ -3456,6 +3662,7 @@
 5	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 230
 # structure = Subj. + 会 + Verb + Obj.
 # text = 爸爸 会 开车。
@@ -3470,6 +3677,7 @@
 4	开	开	VERB	_	_	3	comp:aux	_	_
 5	车	车	NOUN	_	_	4	comp:obj	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 231
 # structure = Subj. + 不 + 会 + Verb + Obj.
@@ -3486,6 +3694,7 @@
 5	英	英	NOUN	_	_	4	comp:obj	_	_
 6	文	文	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 232
 # structure = Subj. + 不 + 会 + Verb + Obj.
@@ -3505,6 +3714,7 @@
 8	菜	菜	NOUN	_	_	5	comp:obj	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 233
 # structure = Subj. + 不 + 会 + Verb + Obj.
 # text = 你 不会  游泳 吗？
@@ -3520,6 +3730,7 @@
 5	泳	泳	NOUN	_	_	4	@m	_	_
 6	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 234
 # structure = Subj. + 不 + 会 + Verb + Obj.
@@ -3539,6 +3750,7 @@
 8	脑	脑	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 235
 # structure = Subj. + 不 + 会 + Verb + Obj.
 # text = 你 不会 开车 吗？
@@ -3554,6 +3766,7 @@
 5	车	车	NOUN	_	_	4	comp:obj	_	_
 6	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 236
 # structure = Subj. + Time + 要 + Verb
@@ -3573,6 +3786,7 @@
 8	iPhone	iPhone	PROPN	_	_	5	comp:obj	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 237
 # structure = Subj. + Time + 要 + Verb
 # text = 你们 现在 要 出去 吗？
@@ -3591,6 +3805,7 @@
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 238
 # structure = Subj. + Time + 要 + Verb
 # text = 我们 今年 要 去 美国 。
@@ -3608,6 +3823,7 @@
 7	美	美	PROPN	_	_	6	comp:obj	_	_
 8	国	国	PROPN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 239
 # structure = Subj. + Time + 要 + Verb
@@ -3628,6 +3844,7 @@
 9	工	工	NOUN	_	_	6	comp:obj	_	_
 10	作	作	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 240
 # structure = Subj. + Time + 要 + Verb
@@ -3652,6 +3869,7 @@
 13	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 14	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 241
 # structure = Subj. + Time + 要 + Verb
 # text = 这 个 星期天 你 要 做 什么？
@@ -3671,6 +3889,7 @@
 9	什	什	ADV	_	_	8	comp:obj	_	_
 10	么	么	PART	_	_	9	@m	_	_
 11	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 242
 # structure = Subj. + Time + 要 + Verb
@@ -3692,6 +3911,7 @@
 10	话	话	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 243
 # structure = Subj. + Time + 要 + Verb
 # text = 下午 老师 要  来 我家。
@@ -3709,6 +3929,7 @@
 7	我	我	PRON	_	_	8	mod	_	_
 8	家	家	NOUN	_	_	6	comp:obj	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 244
 # structure = Subj. + Time + 要 + Verb
@@ -3729,6 +3950,7 @@
 9	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 245
 # structure = Subj. + Time + 要 + Verb
 # text = 下班 以后 你 要 回家 吗？
@@ -3747,6 +3969,7 @@
 8	家	家	NOUN	_	_	7	comp:obj	_	_
 9	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 10	？	？	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 246
 # structure = Time + Subj. + 要 + Verb
@@ -3769,6 +3992,7 @@
 13	e	e	PROPN	_	_	12	flat:foreign@m	_	_
 14	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 247
 # structure = Time + Subj. + 要 + Verb
 # text = 你们 现在 要 出去 吗？
@@ -3785,6 +4009,7 @@
 8	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 248
 # structure = Time + Subj. + 要 + Verb
 # text = 我们 今年 要 去 美国 。
@@ -3800,6 +4025,7 @@
 7	美	美	PROPN	_	_	6	comp:obj	_	_
 8	国	国	PROPN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 249
 # structure = Time + Subj. + 要 + Verb
@@ -3818,6 +4044,7 @@
 9	工	工	NOUN	_	_	6	comp:obj	_	_
 10	作	作	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 250
 # structure = Time + Subj. + 要 + Verb
@@ -3840,6 +4067,7 @@
 13	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 14	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 251
 # structure = Time + Subj. + 要 + Verb
 # text = 这 个 星期天 你 要 做 什么？
@@ -3857,6 +4085,7 @@
 9	什	什	ADV	_	_	8	comp:obj	_	_
 10	么	么	PART	_	_	9	@m	_	_
 11	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 252
 # structure = Time + Subj. + 要 + Verb
@@ -3876,6 +4105,7 @@
 10	话	话	NOUN	_	_	9	@m	_	_
 11	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 253
 # structure = Time + Subj. + 要 + Verb
 # text = 下午 老师 要  来 我家。
@@ -3891,6 +4121,7 @@
 7	我	我	PRON	_	_	8	mod	_	_
 8	家	家	NOUN	_	_	6	comp:obj	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 254
 # structure = Time + Subj. + 要 + Verb
@@ -3909,6 +4140,7 @@
 9	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 255
 # structure = Time + Subj. + 要 + Verb
 # text = 下班 以后 你 要 回家 吗？
@@ -3926,6 +4158,7 @@
 9	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 10	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 256
 # structure = Subj. + 可以 + Verb + Obj.
 # text = 我 可以 进来 吗？
@@ -3941,6 +4174,7 @@
 5	来	来	VERB	_	_	4	comp:dir	_	_
 6	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 7	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 257
 # structure = Subj. + 可以 + Verb + Obj.
@@ -3962,6 +4196,7 @@
 10	酒	酒	NOUN	_	_	9	comp:obj	_	_
 11	。	。	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 258
 # structure = Subj. + 可以 + Verb + Obj.
 # text = 妈妈，我 可以 出去 玩 吗？
@@ -3981,6 +4216,7 @@
 9	玩	玩	VERB	_	_	7	comp:obj	_	_
 10	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 11	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 259
 # structure = Subj. + 可以 + Verb + Obj.
@@ -4003,6 +4239,7 @@
 11	吗	吗	PART	_	Mood=Inter	3	discourse	_	_
 12	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 260
 # structure = Subj. + 可以 + Verb + Obj.
 # text = 我 可以 在 这里 停车 吗？
@@ -4022,6 +4259,7 @@
 9	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 10	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 261
 # structure = Subj. + 不 + 可以 + Verb + Obj.
 # text = 孩子 不 可以 看 这 个。
@@ -4039,6 +4277,7 @@
 7	这	这	DET	_	_	8	det	_	_
 8	个	个	CLF	_	_	6	comp:obj	_	_
 9	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 262
 # structure = Subj. + 不 + 可以 + Verb + Obj.
@@ -4058,6 +4297,7 @@
 8	去	去	VERB	_	_	7	comp:dir	_	_
 9	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 263
 # structure = Subj. + 不 + 可以 + Verb + Obj.
 # text = 这里 不 可以抽烟。
@@ -4074,6 +4314,7 @@
 6	抽	抽	VERB	_	_	4	comp:aux	_	_
 7	烟	烟	NOUN	_	_	6	comp:obj	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 264
 # structure = Subj. + 不 + 可以 + Verb + Obj.
@@ -4092,6 +4333,7 @@
 7	去	去	VERB	_	_	5	comp:aux	_	_
 8	。	。	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 265
 # structure = Subj. + 不 + 可以 + Verb + Obj.
 # text = 你  不 可以 说 脏话。
@@ -4109,6 +4351,7 @@
 7	话	话	NOUN	_	_	5	comp:obj	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 266
 # structure = Subj. + 要 + Verb + Obj.
 # text = 他 要 学 中文。
@@ -4123,6 +4366,7 @@
 4	中	中	NOUN	_	_	3	comp:obj	_	_
 5	文	文	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 267
 # structure = Subj. + 要 + Verb + Obj.
@@ -4139,6 +4383,7 @@
 5	觉	觉	NOUN	_	_	4	comp:obj	_	_
 6	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 268
 # structure = Subj. + 要 + Verb + Obj.
 # text = 早饭 我 要 吃 肉。
@@ -4154,6 +4399,7 @@
 5	吃	吃	VERB	_	_	4	comp:aux	_	_
 6	肉	肉	NOUN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 269
 # structure = Subj. + 要 + Verb + Obj.
@@ -4173,6 +4419,7 @@
 8	休	休	VERB	_	_	7	comp:aux	_	_
 9	息	息	NOUN	_	_	8	@m	_	_
 10	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 270
 # structure = Subj. + 要 + Verb + Obj.
@@ -4194,6 +4441,7 @@
 10	么	么	PART	_	_	9	@m	_	_
 11	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 271
 # structure = Subj. + 怎么 + Verb + Obj.
 # text = 你们 怎么 学 中文？
@@ -4210,6 +4458,7 @@
 6	中	中	NOUN	_	_	5	comp:obj	_	_
 7	文	文	NOUN	_	_	6	@m	_	_
 8	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 272
 # structure = Subj. + 怎么 + Verb + Obj.
@@ -4231,6 +4480,7 @@
 10	吗	吗	PART	_	Mood=Inter	7	discourse	_	_
 11	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 273
 # structure = Subj. + 怎么 + Verb + Obj.
 # text = 你 知道 怎么 去 外滩 吗？
@@ -4249,6 +4499,7 @@
 8	滩	滩	PROPN	_	_	7	@m	_	_
 9	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 10	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 274
 # structure = Subj. + 怎么 + Verb + Obj.
@@ -4269,6 +4520,7 @@
 9	旅	旅	NOUN	_	_	7	comp:obj	_	_
 10	行	行	NOUN	_	_	9	@m	_	_
 11	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 275
 # structure = Subj. + 怎么 + Verb + Obj.
@@ -4292,6 +4544,7 @@
 12	话	话	NOUN	_	_	11	comp:obj	_	_
 13	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 276
 # structure = Topic + 怎么 + Verb
 # text = 芒果 怎么 吃？
@@ -4306,6 +4559,7 @@
 4	么	么	ADV	_	_	3	@m	_	Grammar_Target=Yes
 5	吃	吃	VERB	_	_	0	root	_	_
 6	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 277
 # structure = Topic + 怎么 + Verb
@@ -4324,6 +4578,7 @@
 7	用	用	VERB	_	_	0	root	_	_
 8	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 278
 # structure = Topic + 怎么 + Verb
 # text = 语法 怎么 学 ？
@@ -4338,6 +4593,7 @@
 4	么	么	ADV	_	_	5	@m	_	Grammar_Target=Yes
 5	学	学	VERB	_	_	0	root	_	_
 6	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 279
 # structure = Topic + 怎么 + Verb
@@ -4354,6 +4610,7 @@
 5	么	么	ADV	_	_	6	@m	_	Grammar_Target=Yes
 6	做	做	VERB	_	_	0	root	_	_
 7	？	？	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 280
 # structure = Topic + 怎么 + Verb
@@ -4375,6 +4632,7 @@
 10	说	说	VERB	_	_	0	root	_	_
 11	？	？	PUNCT	_	_	10	punct	_	_
 
+
 # sent_id = 281
 # structure = Subj. + 没有 / 没 + Verb
 # text = 我 没有 去 上班。
@@ -4391,6 +4649,7 @@
 6	班	班	NOUN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 282
 # structure = Subj. + 没有 / 没 + Verb
 # text = 他们 没有 说话。
@@ -4406,6 +4665,7 @@
 5	说	说	VERB	_	_	4	comp:obj	_	_
 6	话	话	NOUN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 283
 # structure = Subj. + 没有 / 没 + Verb
@@ -4425,6 +4685,7 @@
 8	酒	酒	NOUN	_	_	7	@m	_	_
 9	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 284
 # structure = Subj. + 没有 / 没 + Verb
 # text = 她 没有 看到 你。
@@ -4440,6 +4701,7 @@
 5	到	到	VERB	_	_	4	comp:res	_	_
 6	你	你	PRON	_	Person=2	4	comp:obj	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 285
 # structure = Subj. + 没有 / 没 + Verb
@@ -4457,6 +4719,7 @@
 6	饭	饭	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 286
 # structure = Subj. + 没有 / 没 + Verb
 # text = 宝宝 没 哭。有 has been omitted here.
@@ -4470,6 +4733,7 @@
 3	没	没	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	哭	哭	VERB	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 287
 # structure = Subj. + 没有 / 没 + Verb
@@ -4488,6 +4752,7 @@
 7	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 8	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 288
 # structure = Subj. + 没有 / 没 + Verb
 # text = 老板 今天 没 来 吗？
@@ -4504,6 +4769,7 @@
 6	来	来	VERB	_	_	0	root	_	_
 7	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 8	？	？	PUNCT	_	_	6	punct	_	_
+
 
 # sent_id = 289
 # structure = Subj. + 没有 / 没 + Verb
@@ -4522,6 +4788,7 @@
 7	气	气	NOUN	_	_	6	comp:obj	_	_
 8	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 290
 # structure = Subj. + 没有 / 没 + Verb
 # text = 妈妈 晚上 没 做饭。
@@ -4539,6 +4806,7 @@
 7	饭	饭	NOUN	_	_	6	comp:obj	_	_
 8	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 291
 # structure = 不要 + Verb
 # text = 不要 走。
@@ -4551,6 +4819,7 @@
 2	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 3	走	走	VERB	_	_	2	comp:aux	_	_
 4	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 292
 # structure = 不要 + Verb
@@ -4565,6 +4834,7 @@
 3	打	打	VERB	_	_	2	comp:aux	_	_
 4	我	我	PRON	_	Person=1	3	comp:obj	_	_
 5	！	！	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 293
 # structure = 不要 + Verb
@@ -4583,6 +4853,7 @@
 7	吗	吗	PART	_	Mood=Inter	6	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 294
 # structure = 不要 + Verb
 # text = 不要 哭！
@@ -4595,6 +4866,7 @@
 2	要	要	AUX	_	_	0	root	_	Grammar_Target=Yes
 3	哭	哭	VERB	_	_	2	comp:aux	_	_
 4	！	！	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 295
 # structure = 不要 + Verb
@@ -4612,6 +4884,7 @@
 6	肉	肉	NOUN	_	_	3	comp:obj	_	_
 7	。	。	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 296
 # structure = 不要 + Verb
 # text = 你们 不要 喝酒。
@@ -4628,6 +4901,7 @@
 6	酒	酒	NOUN	_	_	5	comp:obj	_	_
 7	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 297
 # structure = 不要 + Verb
 # text = 不要 说 英文。
@@ -4642,6 +4916,7 @@
 4	英	英	NOUN	_	_	3	comp:obj	_	_
 5	文	文	NOUN	_	_	4	@m	_	_
 6	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 298
 # structure = 不要 + Verb
@@ -4659,6 +4934,7 @@
 6	咖	咖	NOUN	_	_	5	comp:obj	_	_
 7	啡	啡	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 299
 # structure = 不要 + Verb
@@ -4680,6 +4956,7 @@
 10	机	机	NOUN	_	_	9	@m	_	_
 11	！	！	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 300
 # structure = 不要 + Verb
 # text = 不要 很 晚 睡觉！
@@ -4696,6 +4973,7 @@
 6	觉	觉	NOUN	_	_	5	comp:obj	_	_
 7	！	！	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 301
 # structure = Noun 1 + 是 + Noun 2
 # text = 我 是 学生。
@@ -4709,6 +4987,7 @@
 3	学	学	NOUN	_	_	2	comp:obj	_	_
 4	生	生	NOUN	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 302
 # structure = Noun 1 + 是 + Noun 2
@@ -4727,6 +5006,7 @@
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 303
 # structure = Noun 1 + 是 + Noun 2
 # text = 他们 是 有钱 人。
@@ -4743,6 +5023,7 @@
 6	人	人	NOUN	_	_	3	comp:obj	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 304
 # structure = Noun 1 + 是 + Noun 2
 # text = 你是 老板 吗？
@@ -4757,6 +5038,7 @@
 4	板	板	NOUN	_	_	3	@m	_	_
 5	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 305
 # structure = Noun 1 + 是 + Noun 2
@@ -4773,6 +5055,7 @@
 5	朋	朋	NOUN	_	_	2	comp:obj	_	_
 6	友	友	NOUN	_	_	5	@m	_	_
 7	。	。	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 306
 # structure = Noun 1 + 是 + Noun 2
@@ -4791,6 +5074,7 @@
 7	吗	吗	PART	_	Mood=Inter	2	discourse	_	_
 8	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 307
 # structure = Noun 1 + 是 + Noun 2
 # text = 你 妈妈 是 老师 吗？
@@ -4808,6 +5092,7 @@
 7	吗	吗	PART	_	Mood=Inter	4	discourse	_	_
 8	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 308
 # structure = Noun 1 + 是 + Noun 2
 # text = 这 都 是 你 的 钱。
@@ -4824,6 +5109,7 @@
 6	钱	钱	NOUN	_	_	3	comp:obj	_	_
 7	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 309
 # structure = Noun 1 + 是 + Noun 2
 # text = 那 是 什么 菜？
@@ -4838,6 +5124,7 @@
 4	么	么	PRON	_	_	3	@m	_	_
 5	菜	菜	NOUN	_	_	2	comp:obj	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 310
 # structure = Noun 1 + 是 + Noun 2
@@ -4856,6 +5143,7 @@
 7	友	友	NOUN	_	_	6	@m	_	_
 8	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 311
 # structure = 太 + Adj. + 了
 # text = 米饭 太 多 了 。
@@ -4870,6 +5158,7 @@
 4	多	多	ADJ	_	_	0	root	_	_
 5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 312
 # structure = 太 + Adj. + 了
@@ -4886,6 +5175,7 @@
 5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 313
 # structure = 太 + Adj. + 了
 # text = 老板 太 忙 了 。
@@ -4901,6 +5191,7 @@
 5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 314
 # structure = 太 + Adj. + 了
 # text = 老师 太 累 了 。
@@ -4915,6 +5206,7 @@
 4	累	累	ADJ	_	_	0	root	_	_
 5	了	了	PART	_	_	4	discourse	_	Grammar_Target=Yes
 6	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 315
 # structure = 太 + Adj. + 了
@@ -4933,6 +5225,7 @@
 7	了	了	PART	_	_	6	discourse	_	Grammar_Target=Yes
 8	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 316
 # structure = Noun + 很 + Adj.
 # text = 我 很 好。
@@ -4945,6 +5238,7 @@
 2	很	很	ADV	_	_	3	mod	_	Grammar_Target=Yes
 3	好	好	ADJ	_	_	0	root	_	_
 4	。	。	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 317
 # structure = Noun + 很 + Adj.
@@ -4960,6 +5254,7 @@
 4	亮	亮	ADJ	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 318
 # structure = Noun + 很 + Adj.
 # text = 他 很 高兴。
@@ -4974,6 +5269,7 @@
 4	兴	兴	ADJ	_	_	3	@m	_	_
 5	。	。	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 319
 # structure = Noun + 很 + Adj.
 # text = 中文 很 难。
@@ -4987,6 +5283,7 @@
 3	很	很	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	难	难	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 320
 # structure = Noun + 很 + Adj.
@@ -5003,6 +5300,7 @@
 5	气	气	NOUN	_	_	4	comp:obj	_	_
 6	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 321
 # structure = Noun + 很 + Adj.
 # text = 我们 很 累。
@@ -5016,6 +5314,7 @@
 3	很	很	ADV	_	_	4	mod	_	Grammar_Target=Yes
 4	累	累	ADJ	_	_	0	root	_	_
 5	。	。	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 322
 # structure = Noun + 很 + Adj.
@@ -5033,6 +5332,7 @@
 6	高	高	ADJ	_	_	0	root	_	_
 7	。	。	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 323
 # structure = Noun + 很 + Adj.
 # text = 你 家 也 很 远 吗？
@@ -5048,6 +5348,7 @@
 5	远	远	ADJ	_	_	0	root	_	_
 6	吗	吗	PART	_	Mood=Inter	5	discourse	_	_
 7	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 324
 # structure = Noun + 很 + Adj.
@@ -5069,6 +5370,7 @@
 10	忙	忙	ADJ	_	_	4	parataxis	_	_
 11	。	。	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 325
 # structure = Noun + 很 + Adj.
 # text = 他 和 他 弟弟  都 很 帅。
@@ -5087,6 +5389,7 @@
 8	帅	帅	ADJ	_	_	0	root	_	_
 9	。	。	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 326
 # structure = Verb + 不 + Verb
 # text = 是 不 是 ？
@@ -5099,6 +5402,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Grammar_Target=Yes
 3	是	是	VERB	_	_	1	conj	_	Grammar_Target=Yes
 4	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 327
 # structure = Verb + 不 + Verb
@@ -5115,6 +5419,7 @@
 5	来	来	VERB	_	_	3	conj	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 328
 # structure = Verb + 不 + Verb
 # text = 你 想 不 想 我 ？
@@ -5129,6 +5434,7 @@
 4	想	想	VERB	_	_	2	conj	_	Grammar_Target=Yes
 5	我	我	PRON	_	Person=1	2	comp:obj	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 329
 # structure = Verb + 不 + Verb
@@ -5151,6 +5457,7 @@
 11	去	去	VERB	_	_	9	conj	_	Grammar_Target=Yes
 12	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 330
 # structure = Verb + 不 + Verb
 # text = 我 去 买 咖啡 ，你 要 不 要 ？
@@ -5171,6 +5478,7 @@
 10	要	要	VERB	_	_	8	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 331
 # structure = Subj. + Verb + 不 + Verb + Obj.
 # text = 你  回 不 回 家？
@@ -5186,6 +5494,7 @@
 5	家	家	NOUN	_	_	2	comp:obj	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 332
 # structure = Subj. + Verb + 不 + Verb + Obj.
 # text = 她  吃 不 吃 鱼？
@@ -5200,6 +5509,7 @@
 4	吃	吃	VERB	_	_	2	conj	_	Grammar_Target=Yes
 5	鱼	鱼	NOUN	_	_	2	comp:obj	_	_
 6	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 333
 # structure = Subj. + Verb + 不 + Verb + Obj.
@@ -5218,6 +5528,7 @@
 7	饭	饭	NOUN	_	_	6	@m	_	_
 8	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 334
 # structure = Subj. + Verb + 不 + Verb + Obj.
 # text = 你爸爸 喝 不 喝 酒？
@@ -5234,6 +5545,7 @@
 6	喝	喝	VERB	_	_	4	conj	_	Grammar_Target=Yes
 7	酒	酒	NOUN	_	_	4	comp:obj	_	_
 8	？	？	PUNCT	_	_	4	punct	_	_
+
 
 # sent_id = 335
 # structure = Subj. + Verb + 不 + Verb + Obj.
@@ -5255,6 +5567,7 @@
 10	室	室	NOUN	_	_	8	@m	_	_
 11	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 336
 # structure = Adj. + 不 + Adj.
 # text = 好 不 好 ？Literally, "good or not good?"
@@ -5267,6 +5580,7 @@
 2	不	不	ADV	_	Polarity=Neg	3	mod	_	Grammar_Target=Yes
 3	好	好	ADJ	_	_	1	conj	_	Grammar_Target=Yes
 4	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 337
 # structure = Adj. + 不 + Adj.
@@ -5281,6 +5595,7 @@
 3	热	热	ADJ	_	_	1	conj	_	Grammar_Target=Yes
 4	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 338
 # structure = Adj. + 不 + Adj.
 # text = 他 帅 不 帅 ？
@@ -5294,6 +5609,7 @@
 3	不	不	ADV	_	Polarity=Neg	4	mod	_	Grammar_Target=Yes
 4	帅	帅	ADJ	_	_	2	conj:redup	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 339
 # structure = Adj. + 不 + Adj.
@@ -5313,6 +5629,7 @@
 8	贵	贵	ADJ	_	_	6	conj	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 340
 # structure = Adj. + 不 + Adj.
 # text = 中国 菜 辣 不 辣 ？
@@ -5329,6 +5646,7 @@
 6	辣	辣	ADJ	_	_	4	conj	_	Grammar_Target=Yes
 7	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 341
 # structure = [First Character of Verb] + 不 + Verb
 # text = 喜欢 不 喜欢？whole word repeated
@@ -5344,6 +5662,7 @@
 5	欢	欢	VERB	_	_	4	@m	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 342
 # structure = [First Character of Verb] + 不 + Verb
 # text = 喜 不 喜欢？only the first character repeated
@@ -5357,6 +5676,7 @@
 3	喜	喜	VERB	_	_	1	conj	_	Grammar_Target=Yes
 4	欢	欢	VERB	_	_	3	@m	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 343
 # structure = [First Character of Verb] + 不 + Verb
@@ -5373,6 +5693,7 @@
 5	兴	兴	ADJ	_	_	4	@m	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 344
 # structure = [First Character of Verb] + 不 + Verb
 # text = 高 不 高兴？only the first character repeated
@@ -5386,6 +5707,7 @@
 3	高	高	ADJ	_	_	1	conj	_	Grammar_Target=Yes
 4	兴	兴	ADJ	_	_	3	@m	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 345
 # structure = [First Character of Verb] + 不 + Verb
@@ -5406,6 +5728,7 @@
 9	亮	亮	ADJ	_	_	8	@m	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 346
 # structure = [First Character of Verb] + 不 + Verb
 # text = 他 女朋友 漂 不 漂亮？only the first character repeated
@@ -5423,6 +5746,7 @@
 7	漂	漂	ADJ	_	_	5	conj	_	Grammar_Target=Yes
 8	亮	亮	ADJ	_	_	7	@m	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 347
 # structure = [First Character of Verb] + 不 + Verb
@@ -5442,6 +5766,7 @@
 8	吃	吃	VERB	_	_	5	conj	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 348
 # structure = [First Character of Verb] + 不 + Verb
 # text = 中国 菜 好 不 好吃？only the first character repeated
@@ -5458,6 +5783,7 @@
 6	好	好	ADJ	_	_	4	conj	_	Grammar_Target=Yes
 7	吃	吃	VERB	_	_	0	root	_	Grammar_Target=Yes
 8	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 349
 # structure = [First Character of Verb] + 不 + Verb
@@ -5478,6 +5804,7 @@
 9	玩	玩	VERB	_	_	6	conj	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 350
 # structure = [First Character of Verb] + 不 + Verb
 # text = 那 个 地方 好 不 好玩？only the first character repeated
@@ -5496,6 +5823,7 @@
 8	玩	玩	VERB	_	_	0	root	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	8	punct	_	_
 
+
 # sent_id = 351
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 喜欢 不 喜欢？whole word repeated
@@ -5509,6 +5837,7 @@
 5	欢	欢	VERB	_	_	4	@m	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 352
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 喜 不 喜欢？only the first character repeated
@@ -5520,6 +5849,7 @@
 3	喜	喜	VERB	_	_	1	conj	_	Grammar_Target=Yes
 4	欢	欢	VERB	_	_	3	@m	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 353
 # structure = [First Character of Adj.] + 不 + Adj.
@@ -5534,6 +5864,7 @@
 5	兴	兴	ADJ	_	_	4	@m	_	Grammar_Target=Yes
 6	？	？	PUNCT	_	_	1	punct	_	_
 
+
 # sent_id = 354
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 高 不 高兴？only the first character repeated
@@ -5545,6 +5876,7 @@
 3	高	高	ADJ	_	_	1	conj	_	Grammar_Target=Yes
 4	兴	兴	ADJ	_	_	3	@m	_	Grammar_Target=Yes
 5	？	？	PUNCT	_	_	1	punct	_	_
+
 
 # sent_id = 355
 # structure = [First Character of Adj.] + 不 + Adj.
@@ -5563,6 +5895,7 @@
 9	亮	亮	ADJ	_	_	5	@m	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 357
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 中国 菜 好吃 不 好吃？whole word repeated
@@ -5579,6 +5912,7 @@
 8	吃	吃	VERB	_	_	5	conj	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 358
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 中国 菜 好 不 好吃？only the first character repeated
@@ -5593,6 +5927,7 @@
 6	好	好	ADJ	_	_	4	conj	_	Grammar_Target=Yes
 7	吃	吃	VERB	_	_	0	root	_	Grammar_Target=Yes
 8	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 359
 # structure = [First Character of Adj.] + 不 + Adj.
@@ -5611,6 +5946,7 @@
 9	玩	玩	VERB	_	_	6	conj	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	6	punct	_	_
 
+
 # sent_id = 360
 # structure = [First Character of Adj.] + 不 + Adj.
 # text = 那 个 地方 好 不 好玩？only the first character repeated
@@ -5626,6 +5962,7 @@
 7	好	好	ADJ	_	_	5	conj	_	Grammar_Target=Yes
 8	玩	玩	VERB	_	_	0	root	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	8	punct	_	_
+
 
 # sent_id = 361
 # structure = Subj. + 有 没有 + Obj.
@@ -5646,6 +5983,7 @@
 9	友	友	NOUN	_	_	8	@m	_	_
 10	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 362
 # structure = Subj. + 有 没有 + Obj.
 # text = 你们 有 没有 孩子？
@@ -5662,6 +6000,7 @@
 6	孩	孩	NOUN	_	_	3	comp:obj	_	_
 7	子	子	NOUN	_	_	6	@m	_	_
 8	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 363
 # structure = Subj. + 有 没有 + Obj.
@@ -5682,6 +6021,7 @@
 9	机	机	NOUN	_	_	8	@m	_	_
 10	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 364
 # structure = Subj. + 有 没有 + Obj.
 # text = 他 有 没有 上 过 大学？
@@ -5699,6 +6039,7 @@
 7	大	大	ADJ	_	_	8	@m	_	_
 8	学	学	NOUN	_	_	5	comp:obj	_	_
 9	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 381
 # structure = Verb + 不 + Verb
@@ -5718,6 +6059,7 @@
 8	不	不	ADV	_	Polarity=Neg	9	mod	_	Grammar_Target=Yes
 9	对	对	ADJ	_	_	7	conj	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 382
 # structure = Verb + 不 + Verb
@@ -5739,6 +6081,7 @@
 10	对	对	ADJ	_	_	8	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 383
 # structure = Verb + 不 + Verb
 # text = 我们 是 好 朋友 ， 对 不 对 ？
@@ -5759,6 +6102,7 @@
 10	对	对	ADJ	_	_	8	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 384
 # structure = Verb + 不 + Verb
 # text = 你 昨天 没 回家， 对 不 对 ？
@@ -5778,6 +6122,7 @@
 9	不	不	ADV	_	Polarity=Neg	10	mod	_	Grammar_Target=Yes
 10	对	对	ADJ	_	_	5	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 385
 # structure = Verb + 不 + Verb
@@ -5800,6 +6145,7 @@
 11	是	是	VERB	_	_	9	conj	_	Grammar_Target=Yes
 12	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 386
 # structure = Verb + 不 + Verb
 # text = 九 点 开会 ， 是 不 是 ？
@@ -5818,6 +6164,7 @@
 8	是	是	VERB	_	_	6	conj	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 387
 # structure = Verb + 不 + Verb
 # text = 你 姓 王 ， 是 不 是 ？
@@ -5834,6 +6181,7 @@
 6	不	不	ADV	_	Polarity=Neg	7	mod	_	Grammar_Target=Yes
 7	是	是	VERB	_	_	5	conj	_	Grammar_Target=Yes
 8	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 388
 # structure = Verb + 不 + Verb
@@ -5853,6 +6201,7 @@
 8	不	不	ADV	_	Polarity=Neg	9	mod	_	Grammar_Target=Yes
 9	好	好	ADJ	_	_	7	conj	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 389
 # structure = Verb + 不 + Verb
@@ -5874,6 +6223,7 @@
 10	好	好	ADJ	_	_	8	conj	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 390
 # structure = Verb + 不 + Verb
 # text = 你们 明天 来， 好 不 好 ？
@@ -5893,6 +6243,7 @@
 9	好	好	ADJ	_	_	7	conj	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	5	punct	_	_
 
+
 # sent_id = 391
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
 # text = 这样 做，对 吗 ？
@@ -5908,6 +6259,7 @@
 5	对	对	VERB	_	_	3	parataxis	_	Grammar_Target=Yes
 6	吗	吗	PART	_	Mood=Inter	5	discourse	_	Grammar_Target=Yes
 7	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 392
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
@@ -5925,6 +6277,7 @@
 6	对	对	VERB	_	_	3	parataxis	_	Grammar_Target=Yes
 7	吗	吗	PART	_	Mood=Inter	6	discourse	_	Grammar_Target=Yes
 8	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 393
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
@@ -5946,6 +6299,7 @@
 10	吗	吗	PART	_	Mood=Inter	9	discourse	_	Grammar_Target=Yes
 11	？	？	PUNCT	_	_	7	punct	_	_
 
+
 # sent_id = 394
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
 # text = 你 没 来 过， 是 吗 ？
@@ -5962,6 +6316,7 @@
 6	是	是	VERB	_	_	3	parataxis	_	Grammar_Target=Yes
 7	吗	吗	PART	_	Mood=Inter	6	discourse	_	Grammar_Target=Yes
 8	？	？	PUNCT	_	_	3	punct	_	_
+
 
 # sent_id = 395
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
@@ -5982,6 +6337,7 @@
 9	吗	吗	PART	_	Mood=Inter	8	discourse	_	Grammar_Target=Yes
 10	？	？	PUNCT	_	_	2	punct	_	_
 
+
 # sent_id = 396
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
 # text = 我们 去 你 家 ， 好 吗 ？
@@ -6000,6 +6356,7 @@
 8	吗	吗	PART	_	Mood=Inter	7	discourse	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	3	punct	_	_
 
+
 # sent_id = 397
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
 # text = 不要 告诉 他 ， 好 吗 ？
@@ -6017,6 +6374,7 @@
 7	好	好	ADJ	_	Mood=Inter	2	parataxis	_	Grammar_Target=Yes
 8	吗	吗	PART	_	Mood=Inter	7	discourse	_	Grammar_Target=Yes
 9	？	？	PUNCT	_	_	2	punct	_	_
+
 
 # sent_id = 398
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
@@ -6038,6 +6396,7 @@
 10	好	好	ADJ	_	_	7	parataxis	_	Grammar_Target=Yes
 11	吗	吗	PART	_	Mood=Inter	10	discourse	_	Grammar_Target=Yes
 12	？	？	PUNCT	_	_	7	punct	_	_
+
 
 # sent_id = 399
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
@@ -6061,6 +6420,7 @@
 12	吗	吗	PART	_	Mood=Inter	10	discourse	_	Grammar_Target=Yes
 13	？	？	PUNCT	_	_	4	punct	_	_
 
+
 # sent_id = 400
 # structure = ⋯⋯， 好 / 对 / 是 / 可以 +  吗？
 # text = 妈妈，我 要 吃 巧克力 ， 可以 吗 ？
@@ -6083,6 +6443,7 @@
 12	以	以	AUX	_	_	11	@m	_	Grammar_Target=Yes
 13	吗	吗	PART	_	Mood=Inter	11	discourse	_	Grammar_Target=Yes
 14	？	？	PUNCT	_	_	5	punct	_	_
+
 
 # sent_id = 401
 # structure = [Statement] + 吗 ？
